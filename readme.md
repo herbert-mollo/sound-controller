@@ -15,8 +15,6 @@ pip install pycaw==20230407
 python server.py
 ```
 
-
-
 # set ngrok config
 
 ```
@@ -39,3 +37,17 @@ https://nondefunct-unlopped-staci.ngrok-free.dev/
 http://TU_IP_LOCAL:8080/mute
 http://TU_IP_LOCAL:8080/unmute
 ```
+
+
+# when all is setup
+just run
+```
+run.bat
+```
+
+is equivalent to run those 2
+```
+python server.py
+ngrok http 8080
+```
+
