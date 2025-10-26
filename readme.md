@@ -2,6 +2,10 @@
 ```
 pip install pycaw comtypes flask
 
+```
+
+## (optional) if pycaw don't work at first
+```
 pip uninstall pycaw -y
 pip install pycaw==20230407
 ```
@@ -11,12 +15,7 @@ pip install pycaw==20230407
 python server.py
 ```
 
-# available after run
 
-```
-http://TU_IP_LOCAL:8080/mute
-http://TU_IP_LOCAL:8080/unmute
-```
 
 # set ngrok config
 
@@ -32,4 +31,11 @@ ngrok http 8080
 e.g. final
 ```
 https://nondefunct-unlopped-staci.ngrok-free.dev/
+```
+
+# available after run
+
+```
+http://TU_IP_LOCAL:8080/mute
+http://TU_IP_LOCAL:8080/unmute
 ```
